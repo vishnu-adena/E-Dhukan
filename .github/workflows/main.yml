@@ -22,7 +22,6 @@ jobs:
 
     - name: Navigate to project directory
       run: cd EDhukan/EDhukan_ProductService
-
     - name: Build with Maven
       run: mvn clean package  # Adjust Maven goals as needed
 
